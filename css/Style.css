@@ -634,6 +634,16 @@ main .post-content .post-title a {
     background-color: #095a55;
 }
 
+#contact .container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #fff38e;
+}
+
 #contact .container {
     position: relative;
     min-width: 1100px;
@@ -643,14 +653,13 @@ main .post-content .post-title a {
     background-color: #fff;
 }
 
-#contact .container::before {
-    content: '';
+
+#contact .container .infoContainer {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background-color: #fff38e;
+    top: 40px;
+    width: 350px;
+    height: calc(100%-80px);
+    background-color: #095a55;
 }
 
 
