@@ -66,15 +66,17 @@
     </nav> -->
     <nav>
         <div id="leftDiv">
-            <img src="./assets/image/lakshya-white.svg" alt="LAKSHYA LOGO">
+            <img src="./assets/images/logo.svg" alt="LAKSHYA LOGO">
         </div>
         <div id="mainMenu">
             <ul>
-                <li data-text="Home"><a href="">Home</a></li>
-                <li data-text="Goals"><a href="">Goals</a></li>
-                <li data-text="Compaigns"><a href="">Compaigns</a></li>
-                <li data-text="About Us"><a href="">About Us</a></li>
-                <li data-text="Contact Us"><a href="">Contact Us</a></li>
+                <li data-text="Home"><a href="./Index.html">Home</a></li>
+                <li id="blog" data-text="Blogs"><a href=".#blogs">Blogs</a></li>
+                <li id="topPost" data-text="Top Posts"><a href="#topPosts">TopPosts</a></li>
+                <li data-text="Log In"><a href="./login.html">Log in</a></li>
+                <li data-text="Sign Up"><a href="./signup.html">Sign up</a></li>
+                <li data-text="Team"><a href="./Index.html#team">Team</a></li>
+                <li id="contacts" data-text="Contact Us"><a href="#contact">Contact Us</a></li>
             </ul>
         </div>
         <div id="rightDiv">
@@ -94,7 +96,7 @@
             <div class="site-background" data-aos="fade-up" data-aos-delay="100">
                 <h3>Be a better YOU</h3>
                 <h1>LAKSHYA</h1>
-                <button class="btn">Contact Us</button>
+                <button class="btn"><a href="#contact">Contact Us</a></button>
             </div>
         </section>
 
@@ -103,7 +105,7 @@
         <!-- --------------------- Blog Carousel ----------------- -->
 
         <section>
-            <div class="blog">
+            <div id="blogs" class="blog">
                 <div class="container">
                     <div class="owl-carousel owl-theme blog-post">
                         <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
@@ -296,7 +298,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="popular-post">
+                    <div class="popular-post" id="topPosts">
                         <h2>Popular Post</h2>
                         <div class="post-content" data-aos="flip-up" data-aos-delay="200">
                             <div class="post-image">
@@ -398,6 +400,67 @@
             </div>
         </section>
 
+        <!-- TEAM -->
+        <section id="team">
+            <div class="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/blog1.png" alt="blog1">
+                            <div class="blog-title">
+                                <h3>Full Name</h3>
+                                <span>Position</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora accusantium, atque
+                                    odio dicta quo pariatur consectetur recusandae distinctio vitae ut? Fuga
+                                    voluptatibus quam</p>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/blog1.png" alt="blog1">
+                            <div class="blog-title">
+                                <h3>Full Name</h3>
+                                <span>Position</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora accusantium, atque
+                                    odio dicta quo pariatur consectetur recusandae distinctio vitae ut? Fuga
+                                    voluptatibus quam</p>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/blog1.png" alt="blog1">
+                            <div class="blog-title">
+                                <h3>Full Name</h3>
+                                <span>Position</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora accusantium, atque
+                                    odio dicta quo pariatur consectetur recusandae distinctio vitae ut? Fuga
+                                    voluptatibus quam</p>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/blog1.png" alt="blog1">
+                            <div class="blog-title">
+                                <h3>Full Name</h3>
+                                <span>Position</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora accusantium, atque
+                                    odio dicta quo pariatur consectetur recusandae distinctio vitae ut? Fuga
+                                    voluptatibus quam</p>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/blog1.png" alt="blog1">
+                            <div class="blog-title">
+                                <h3>Full Name</h3>
+                                <span>Position</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora accusantium, atque
+                                    odio dicta quo pariatur consectetur recusandae distinctio vitae ut? Fuga
+                                    voluptatibus quam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TEAM SECTION ENDS -->
+
         <!-- -----------x---------- Site Content -------------x------------>
 
     </main>
@@ -406,14 +469,69 @@
 
     <section id="contact">
         <div class="container">
-            <div class="infoContainer">
-
+            <div class="infoContainer" data-aos="fade-right" data-aos-delay="200">
+                <div>
+                    <h2>Contact Us</h2>
+                    <ul class="info">
+                        <li>
+                            <span> <i class="fa fa-envelope" aria-hidden="true"></i> </span>
+                            <span> example@gmail.com </span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                            <span>+91991121212</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <span>Department of Computer Science, Acharya Institute of Techonlogy, Bangalore, Karnataka
+                                - 560107</span>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="sci">
+                    <li><a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a></li>
+                    <li><a href="">
+                            <i class="fab fa-twitter"></i>
+                        </a></li>
+                    <li><a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a></li>
+                    <li><a href="">
+                            <i class="fab fa-youtube"></i>
+                        </a></li>
+                </ul>
             </div>
-            <div class="formContainer">
-
+            <div class="formContainer" data-aos="fade-left" data-aos-delay="200">
+                <div class="contactForm">
+                    <h2>Send A Message</h2>
+                    <div class="formBox">
+                        <div class="inputBox w50">
+                            <input type="text" required>
+                            <span>First Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" required>
+                            <span>Last Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="email" required>
+                            <span>Email Address</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <textarea type="text" required></textarea>
+                            <span>Write your message here...</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
 
     <!-- --------------------------- Footer ---------------------------------------- -->
 
